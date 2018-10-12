@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/stefanocudini/node-fetch-dom/issues"
   },
-  "homepage": "https://github.com/stefanocudini/node-fetch-dom#readme"
+  "homepage": "https://github.com/stefanocudini/node-fetch-dom#readme",
+  "dependencies": {
+    "nightmare": "^3.0.1"
+  }
 }
