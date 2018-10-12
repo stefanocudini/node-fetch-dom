@@ -18,6 +18,18 @@ $ npm install node-fetch-dom --save
 ```
 
 # Usage
+## by command line
+
+```bash
+$ npm install -g 
+$ fetchdom http://labs.easyblog.it allTags
+```
+
+## by nodejs app
+
+```bash
+$ npm install node-fetch-dom --save 
+```
 
 ```javascript
 
