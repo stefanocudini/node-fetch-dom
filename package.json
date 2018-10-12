@@ -12,6 +12,7 @@
     "url": "git+https://github.com/stefanocudini/node-fetch-dom.git"
   },
   "keywords": [
+	"nodejs",
     "fetch",
     "dom",
     "crawler",
