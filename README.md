@@ -12,14 +12,14 @@ Library for Nodejs that retrieve the DOM and global vars from a remote html page
 [NPM](https://npmjs.org/package/node-fetch-dom)
 
 # Usage
-## by command line
+## Install in command line
 
 ```bash
 $ npm install -g node-fetch-dom
 $ fetchdom http://labs.easyblog.it/index.html allTags
 ```
 
-## by nodejs app
+## Integrate in your application
 
 ```bash
 $ npm install --save node-fetch-dom 
