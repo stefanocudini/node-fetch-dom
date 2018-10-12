@@ -31,7 +31,7 @@ fetchdom('http://labs.easyblog.it/', 'location.href', function(href) {
 });
 
 /*
-  parse global variable(in remote page is defined window.allTags = {...}; )
+  parsing of global remote variables (in remote page is defined window.allTags = {...}; )
 */
 fetchdom('http://labs.easyblog.it/', 'allTags', function(tags) {
 
