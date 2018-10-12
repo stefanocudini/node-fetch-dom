@@ -24,9 +24,9 @@ fetchdom('http://labs.easyblog.it/', function(window) {
 /*
   specify sub property of default DOM
 */
-fetchdom('http://labs.easyblog.it/', 'location', function(loc) {
+fetchdom('http://labs.easyblog.it/', 'location.href', function(href) {
 
-	console.log(loc.href);
+	console.log(href);
 
 });
 
