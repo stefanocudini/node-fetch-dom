@@ -16,6 +16,9 @@ Library for Nodejs that retrieve the DOM and global vars from a remote html page
 
 ```bash
 $ npm install -g node-fetch-dom
+```
+**run command**
+```bash
 $ fetchdom http://labs.easyblog.it/index.html allTags
 ```
 
@@ -24,7 +27,7 @@ $ fetchdom http://labs.easyblog.it/index.html allTags
 ```bash
 $ npm install --save node-fetch-dom 
 ```
-
+**application code**
 ```javascript
 
 var fetchdom = require('node-fetch-dom');
