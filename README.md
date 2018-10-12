@@ -13,9 +13,9 @@ $ npm install node-fetch-dom --save
 
 var fetchdom = require('node-fetch-dom');
 
-fetchdom('http://labs.easyblog.it/', 'allTags', function(dom) {
+fetchdom('http://labs.easyblog.it/', 'location', function(dom) {
 
-	console.log(json);
+	console.log(dom.href);
 
 });
 ```
