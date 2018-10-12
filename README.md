@@ -1,6 +1,11 @@
 # node-fetch-dom
 Library for Nodejs that retrieve the DOM and global vars from a remote html page.
 
+[![npm version](https://badge.fury.io/js/node-fetch-dom.svg)](http://badge.fury.io/js/node-fetch-dom)
+
+*Licensed under the MIT license.*
+
+*Copyright [Stefano Cudini](http://labs.easyblog.it/stefano-cudini/)*
 
 # Installation
 ```bash
