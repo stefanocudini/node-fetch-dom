@@ -7,6 +7,11 @@ Library for Nodejs that retrieve the DOM and global vars from a remote html page
 
 *Copyright [Stefano Cudini](http://labs.easyblog.it/stefano-cudini/)*
 
+## Source code
+[Github](https://github.com/stefanocudini/node-fetch-dom)
+[NPM](https://npmjs.org/package/node-fetch-dom)
+
+
 # Installation
 ```bash
 $ npm install node-fetch-dom --save

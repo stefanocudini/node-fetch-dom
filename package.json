@@ -1,9 +1,10 @@
 {
   "name": "node-fetch-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for Nodejs that retrieve the DOM from a remote html page.",
   "main": "index.js",
   "scripts": {
+    "build": "markdown README.md > index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,9 +12,9 @@
     "url": "git+https://github.com/stefanocudini/node-fetch-dom.git"
   },
   "keywords": [
-    "nodejs",
     "fetch",
     "dom",
+    "crawler",
     "scraping"
   ],
   "author": {
@@ -28,5 +29,8 @@
   "homepage": "https://github.com/stefanocudini/node-fetch-dom#readme",
   "dependencies": {
     "nightmare": "^3.0.1"
+  },
+  "devDependencies": {
+    "markdown-to-html": "0.0.13"
   }
 }
