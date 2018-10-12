@@ -1,5 +1,5 @@
 # node-fetch-dom
-Library for Nodejs that retrieve the DOM from a remote html page.
+Library for Nodejs that retrieve the DOM and global vars from a remote html page.
 
 
 # Installation
