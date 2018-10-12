@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title></title> 
+<!--meta http-equiv="refresh" content="0;URL=http://www.miosito.com/nuova-pagina.html"-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<!--link href="style.css" rel="stylesheet" type="text/css" /-->
+<style>
+/*	@import url('style.css'); */
+#content {
+
+}
+</style>
+</head>
+
+<body>
+<div id="content">
+
+</div>
+<script> 
+
+abc = {
+	a: function() {
+		return {
+			m: 'ciao'
+		}
+	},
+	b: function() {
+		return 'bau'
+	},
+	c: 100,
+	d: {
+		e: function() {
+			return 100
+		}
+	}
+};
+Object.getPath = function(o, s) {
+
+    if(!s) return o;
+
+    s = s.replace(/\[(\w+)\]/g, '.$1'); // convert indexes to properties
+    s = s.replace(/^\./, '');           // strip a leading dot
+    var a = s.split('.');
+    for (var i = 0, n = a.length; i < n; ++i) {
+        var k = a[i];
+        
+        if(typeof k === 'function')
+            k = k();
+
+        if (o[k]) {
+            o = o[ a[i] ];
+            
+            if(typeof o === 'function')
+                o = o();
+            
+        } else {
+            return;
+        }
+    }
+    return o;
+}
+
+</script> 
+</body>
+</html>
