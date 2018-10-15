@@ -1,6 +1,6 @@
 
 var restify = require('restify');
-var fetchdom = require('../lib/node-fetch-dom');
+var fetchdom = require('../lib/fetch-dom');
 
 
 var server = restify.createServer();

@@ -1,2 +1,2 @@
 
-exports = require('./lib/node-fetch-dom');
+exports = require('./lib/fetch-dom');

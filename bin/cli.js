@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var fetchdom = require('../lib/node-fetch-dom');
+var fetchdom = require('../lib/fetch-dom');
 
 var url = process.argv[2] || undefined,
     subvar = process.argv[3] || undefined;
