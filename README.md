@@ -15,7 +15,7 @@ Library for Nodejs that retrieve the DOM and global vars from a remote html page
 ## Install in command line
 
 ```bash
-$ npm install -g fetch-dom
+$ npm install -g @stefcud/fetch-dom
 ```
 **run command**
 ```bash
@@ -30,7 +30,7 @@ $ npm install --save fetch-dom
 **application code**
 ```javascript
 
-var fetchdom = require('fetch-dom');
+var fetchdom = require('@stefcud/fetch-dom');
 
 /*
   by default return the window object
