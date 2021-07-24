@@ -1,8 +1,8 @@
 <h1 id="fetch-dom">fetch-dom</h1>
 <p>Library for Nodejs that retrieve the DOM and global vars from a remote html page.</p>
-<p><a href="http://badge.fury.io/js/node-fetch-dom"><img src="https://badge.fury.io/js/node-fetch-dom.svg" alt="npm version"></a></p>
+<p><a href="https://badge.fury.io/js/node-fetch-dom"><img src="https://badge.fury.io/js/node-fetch-dom.svg" alt="npm version"></a></p>
 <p><em>Licensed under the MIT license.</em></p>
-<p><em>Copyright <a href="http://labs.easyblog.it/stefano-cudini/">Stefano Cudini</a></em></p>
+<p><em>Copyright <a href="https://opengeo.tech/stefano-cudini/">Stefano Cudini</a></em></p>
 <h2 id="source-code">Source code</h2>
 <p><a href="https://github.com/stefanocudini/node-fetch-dom">Github</a><br><a href="https://npmjs.org/package/fetch-dom">NPM</a></p>
 <h1 id="usage">Usage</h1>
@@ -10,7 +10,7 @@
 <pre><code class="lang-bash">$ npm install -g @stefcud/fetch-dom
 </code></pre>
 <p><strong>run command</strong><br>page url and global variable name</p>
-<pre><code class="lang-bash">$ fetchdom http://labs.easyblog.it/index.html allTags
+<pre><code class="lang-bash">$ fetchdom https://opengeo.tech/index.html allTags
 </code></pre>
 <h2 id="integrate-in-your-application">Integrate in your application</h2>
 <pre><code class="lang-bash">$ npm install --save fetch-dom 
@@ -22,7 +22,7 @@ var fetchdom = require(&#39;@stefcud/fetch-dom&#39;);
 /*
   by default return the window object
 */
-fetchdom(&#39;http://labs.easyblog.it/&#39;, function(window) {
+fetchdom(&#39;https://opengeo.tech/&#39;, function(window) {
 
     console.log(window.document.body);
 });
@@ -30,7 +30,7 @@ fetchdom(&#39;http://labs.easyblog.it/&#39;, function(window) {
 /*
   specify sub property of default DOM
 */
-fetchdom(&#39;http://labs.easyblog.it/&#39;, &#39;location.href&#39;, function(href) {
+fetchdom(&#39;https://opengeo.tech/&#39;, &#39;location.href&#39;, function(href) {
 
     console.log(href);
 
@@ -39,7 +39,7 @@ fetchdom(&#39;http://labs.easyblog.it/&#39;, &#39;location.href&#39;, function(h
 /*
   parsing of global remote variables (in remote page is defined window.allTags = {...}; )
 */
-fetchdom(&#39;http://labs.easyblog.it/&#39;, &#39;allTags&#39;, function(tags) {
+fetchdom(&#39;https://opengeo.tech/&#39;, &#39;allTags&#39;, function(tags) {
 
     console.log(tags);
 
