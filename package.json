@@ -1,8 +1,8 @@
 {
   "name": "@stefcud/fetch-dom",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Library for Nodejs that retrieve the DOM from a remote html page.",
-  "main": "index.js",
+  "main": "lib/fetch-dom",
   "scripts": {
     "build": "markdown README.md > index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
