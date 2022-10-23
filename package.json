@@ -1,10 +1,6 @@
 {
   "name": "@stefcud/fetch-dom",
-<<<<<<< HEAD
-  "version": "1.3.4",
-=======
   "version": "1.3.5",
->>>>>>> 13aa3829ae37cc504d3b996253d19cfc83c5ef05
   "description": "Library for Nodejs that retrieve the DOM from a remote html page.",
   "main": "lib/fetch-dom",
   "scripts": {
