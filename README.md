@@ -1,5 +1,5 @@
 # fetch-dom
-Library for Nodejs that retrieve the DOM and global vars from a remote html page.
+Magic utility that extract javascript global variables from a remote html page.
 
 [![npm version](https://badge.fury.io/js/node-fetch-dom.svg)](https://badge.fury.io/js/node-fetch-dom)
 
