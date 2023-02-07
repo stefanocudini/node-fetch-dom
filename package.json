@@ -1,7 +1,7 @@
 {
   "name": "@stefcud/fetch-dom",
   "version": "1.3.5",
-  "description": "Library for Nodejs that retrieve the DOM from a remote html page.",
+  "description": "Magic utility that extract javascript global variables from a remote html page.",
   "main": "lib/fetch-dom",
   "scripts": {
     "build": "markdown README.md > index.html",
